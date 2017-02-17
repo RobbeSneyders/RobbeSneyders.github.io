@@ -8,7 +8,8 @@ degrees:
       to interact with their environment and with each other. 
       Key aspects are optimization, decision making methods based on
       intelligent sensor processing, and architectural composition 
-      patterns of systems of systems.
+      patterns of <i>systems of systems</i>.
+    tags: Control systems, Optimization, Precision
 
   - title: Bachelor of Mechanical Engineering with Minor in Electrical Engineering
     school: University of Leuven
@@ -19,6 +20,7 @@ degrees:
       I chose for a focus on mechanics and electronics, which gave me
       a deeper understanding of mechanics of materials, fluid dynamics, 
       thermodynamics, and electromechanics.
+    tags: Math, Physics, Mechanics, Electronics
 
 thesis:
   - title: Usage Pattern Prediction by Matrix Decomposition
@@ -30,6 +32,7 @@ thesis:
       methods based on matrix decomposition to predict these patterns.
       A basic understanding of general machine learning methods is 
       needed to evaluate the results by comparison.
+    tags: Python, Machine learning, Data analysis
 
 courses:
   - title: "Athens Course: Operational Research"
@@ -40,6 +43,7 @@ courses:
       on operational research at the Technical University of Lisbon.
       Operational research aims to find optimal or near-optimal 
       solutions to complex decision-making problems.
+    tags: Optimization, Linear programming
 
   - title: "Athens Course: Spectral Signatures - from Foods to Fuels"
     school: "Technical University of Madrid"
@@ -50,6 +54,7 @@ courses:
       Spectroscopy is a non-invasive technique used to identify
       and characterize materials by studying the interaction between 
       the material and electromagnetic radiation.
+    tags: Matlab, Spectral analysis
 
   - title: "Online Course: CS50: Introduction to Computer Science"
     school: "Harvard University"
@@ -59,3 +64,4 @@ courses:
       self-taught. I followed the CS50 course online to get an
       overview of the computer science fundamentals and fill in
       any gaps in my knowledge.
+    tags: C, Python, SQL, Javascript

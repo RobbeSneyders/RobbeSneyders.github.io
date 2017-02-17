@@ -1,3 +1,14 @@
 .degree {
 	margin-bottom: 1em;
 }
+
+#tag-image {
+	float: left;
+	margin-right: 0.5em;
+	height: 1em;
+	transform: translate(0, 25%);
+}
+
+.tags {
+	color: $Primary;
+}
