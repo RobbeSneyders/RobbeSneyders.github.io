@@ -1,57 +1,59 @@
 #profile-card {
-    min-height: 48vh;
     background: $Primary;
     text-align: center;
 }
 
 #profile-card .container {
-    height: 100%;
+    min-height: 48vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#description-card {
+    background: $GreyBackground;
+    text-align: center;
+}
+
+#description-card .container {
+    min-height: 52vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.flex-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#age {
+    margin-top: 0;
 }
 
 #location {
     margin-top: 0;
-}
-
-#image-container {
-    height: 50%;
-}
-
-#image-container img {
-    height: 100%;
-}
-
-#description-card {
-    min-height: 52vh;
-    background: $GreyBackground;
-}
-
-#description-card .container {
-    height: 100%;
-    text-align: center;
-    padding: 1%;
-}
-
-#description-card img {
-    margin-top: 2em;
-    height: 45px;
-}
-
-#description-card h3 {
-    text-align: center;
-    margin: auto;
-    margin-top: 0.7em;
     margin-bottom: 1em;
 }
 
-@media (min-width: 1200px), (min-height: 600px) { 
+#description-card img {
+    height: 64px;
+}
 
+#description-card h3 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+@media (min-width: 1200px) {
     #description-card h3 {
         width: 50vh;
-    }
-
-    #description-card img {
-        margin-top: 1em;
-        height: 12%;
-        max-height: 6.2vh;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
