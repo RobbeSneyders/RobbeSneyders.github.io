@@ -20,7 +20,7 @@ other:
     link: https://play.google.com/store/apps/details?id=com.cuttingedge.swipeshortcuts
     tags: Android app, Java, SQL, XML
 
-  - title: Kotreview (offline)
+  - title: Kotreview (prototype)
     image: assets/images/kotreview.jpg
     link: assets/images/kotreview.jpg
     tags: Website, Ruby on Rails, SQL, Javascript, HTML, CSS
