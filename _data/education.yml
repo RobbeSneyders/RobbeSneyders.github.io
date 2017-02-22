@@ -1,7 +1,7 @@
 degrees:
-  - title: Master of Mechanical Engineering, Mechatronics and Robotics
+  - title: Master of Science in Mechanical Engineering, Mechatronics and Robotics
     school: University of Leuven
-    period: 2015 - 2017
+    period: 2015 - June 2017
     description: >
       My master focusses on the challenges lying ahead in the domain 
       of robotics and mechatronics, in which machines should be able 
@@ -9,9 +9,9 @@ degrees:
       Key aspects are optimization, decision making methods based on
       intelligent sensor processing, and architectural composition 
       patterns of <i>systems of systems</i>.
-    tags: Control systems, Optimization, Precision
+    tags: Control systems, Sensors, Composition patterns, Optimization
 
-  - title: Bachelor of Mechanical Engineering with Minor in Electrical Engineering
+  - title: Bachelor of Science in Engineering, Mechanical - Electrical
     school: University of Leuven
     period: 2011 - 2015
     description: >
@@ -27,12 +27,12 @@ thesis:
     school: University of Leuven
     period: 2016 - 2017
     description: >
-      People display certain patterns when using appliances. The goal
+      People display patterns when using appliances. The goal
       of my thesis is to assess the potential of machine learning 
       methods based on matrix decomposition to predict these patterns.
       A basic understanding of general machine learning methods is 
       needed to evaluate the results by comparison.
-    tags: Python, Machine learning, Data analysis
+    tags: Python, Pattern recognition, Data analysis
 
 courses:
   - title: "Athens Course: Operational Research"
