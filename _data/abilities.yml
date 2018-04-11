@@ -1,19 +1,18 @@
 skills:
   proficient:
-    - Data analysis
-    - Problem Solving
-    - Java
     - Python
-    - Android development
-    - MS Office
+    - TensorFlow
+    - Apache Beam
+    - Linux
+    - Git
+    - Google Cloud Platform
 
   intermediate:
-    - Git
-    - Linux
-    - C
+    - Java
+    - Android development
     - Matlab
-    - Jupyter
     - Latex
+    - Jupyter
 
   basic:
     - Javascript

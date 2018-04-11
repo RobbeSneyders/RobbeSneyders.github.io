@@ -1,7 +1,7 @@
 degrees:
   - title: Master of Science in Mechanical Engineering, Mechatronics and Robotics
     school: University of Leuven
-    period: 2015 - June 2017
+    period: 2015 - 2017
     description: >
       My master focusses on the challenges lying ahead in the domain 
       of robotics and mechatronics, in which machines should be able 
@@ -56,12 +56,12 @@ courses:
       the material and electromagnetic radiation.
     tags: Matlab, Spectral analysis
 
-  - title: "Online Course: CS50: Introduction to Computer Science"
-    school: "Harvard University"
-    period: "January 2017"
-    description: >
-      Most of my knowledge about computer science has been 
-      self-taught. I followed the CS50 course online to get an
-      overview of the computer science fundamentals and fill in
-      any gaps in my knowledge.
-    tags: C, Python, SQL, Javascript
+  # - title: "Online Course: CS50: Introduction to Computer Science"
+  #   school: "Harvard University"
+  #   period: "January 2017"
+  #   description: >
+  #     Most of my knowledge about computer science has been 
+  #     self-taught. I followed the CS50 course online to get an
+  #     overview of the computer science fundamentals and fill in
+  #     any gaps in my knowledge.
+  #   tags: C, Python, SQL, Javascript

@@ -17,8 +17,8 @@ layout: default
 	  		</div>
 
 	  		<div id="info" class="flex-item">
-			  	<h3 id="age" class="text_white">23 years</h3>
-			  	<h3 id="location" class="text_white">Leuven, Belgium</h3>
+			  	<h3 id="age" class="text_white">24 years</h3>
+			  	<h3 id="location" class="text_white">Ghent, Belgium</h3>
 		  	</div>
 
 		</div>
@@ -29,17 +29,17 @@ layout: default
 
 		<div class="container">
 
+	  		<img src="assets/images/icon_machine_learning.svg" alt="machine learning icon" title="Designed by Eucalyp from Flaticon"/>
+
+	  		<h3>Machine Learning Engineer @ ML6</h3>
+
 	  		<img src="assets/images/icon_robotics.svg" alt="robotics icon" title="Designed by Eucalyp from Flaticon"/>
 
-	  		<h3>Senior year Master of Science in Mechanical Engineering, Mechatronics and Robotics</h3>
+	  		<h3>Master of Science in Mechanical Engineering, Mechatronics and Robotics</h3>
 
 	  		<img src="assets/images/icon_development.svg" alt="software development icon" title="Designed by Eucalyp from Flaticon"/>
 
-	  		<h3>Self-taught Software Developer</h3>
-
-	  		<img src="assets/images/icon_machine_learning.svg" alt="machine learning icon" title="Designed by Eucalyp from Flaticon"/>
-
-	  		<h3>Machine Learning Enthusiast</h3>
+	  		<h3>Android Developer</h3>
 
 		</div>
 
@@ -53,11 +53,28 @@ layout: default
 
 	<script>
 		function showResume() {
+			document.getElementById('experience').style.display = "block";
 			document.getElementById('education').style.display = "block";
 			document.getElementById('abilities').style.display = "block";
 			document.getElementById('button').style.display = "none";
 		}
 	</script>
+
+	<div id="experience" class="section">
+
+		<div class="container">
+
+			<h1 class="title_dark">Experience</h1>
+
+			<hr class="divider">
+
+			{% for job in site.data.experience %}
+				{% include experience.html experience=job %}
+			{% endfor %}
+
+		</div>
+
+	</div>
 
 	<div id="education" class="section">
 
@@ -123,7 +140,7 @@ layout: default
 
 		<div class="container">
 
-			<h1 class="title_dark">Projects</h1>
+			<h1 class="title_dark">Personal Projects</h1>
 
 			<hr class="divider">
 
